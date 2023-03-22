@@ -564,8 +564,9 @@ button {
 }
 
 .subscribe-form-label {
-  display: block;
-  margin-bottom: 16px;
+  display: flex;
+  
+  padding-bottom: 16px;
 
   font-weight: 500;
   font-size: 16px;
@@ -575,8 +576,12 @@ button {
 }
 
 .subscribe-group-input-form {
-  table-layout: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
 }
+
+
 
 .subscribe-form-input {
   width: 264px;
@@ -599,9 +604,7 @@ button {
   letter-spacing: 0.04em;
     }
 
-    .subscribe-form-icon {
-       
-    }
+   
 
 .subscribe-form-button{
   display: flex;
