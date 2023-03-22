@@ -612,7 +612,7 @@ button {
 .subscribe-form-button{
 
   display: flex;
-  /* align-items:flex-end; */
+ 
   justify-content: space-between;
  margin-top: auto;
  margin-bottom: 0;
