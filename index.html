@@ -334,20 +334,31 @@
               </svg> </a> </li>
         </ul>
       </div>
-      <div class="subscribe">
-        <form action="">
-          <label for=""><input type="text"></label>
-          <button type="submit">Subscribe
-            <svg>
-              <use></use>
+      
+        <form class="subscribe-form modal-form">
+          <div class="subscribe-group-input-form">
+            <label class="modal-form-label" for="email"><span class="subscribe-form-input-description">Subscribe</span></label>
+            <input
+            id="email"
+            class="subscribe-form-input"
+            type="email"
+            name="email-user"
+            placeholder="E-mail" 
+             required>
+          </div>
+          
+         
+          <button type="submit" class="subscribe-form-button">Subscribe
+            <svg class="subscribe-form-icon"  width="24" height="24">
+              <use href="/images/icons/sprite.svg#icon-subscribe"></use>
             </svg>
           </button>
         </form>
-      </div>
+      
     </div>
   </footer>
   <!-- ===============================MODAL WINDOW========================= -->
-  <div class="backdrop " data-modal>
+  <div class="backdrop is-hidden" data-modal >
     <div class="modal">
       <button type="button" class="modal-close-btn" data-modal-close>
         <svg width="8" height="8" class="modal-close-btn-icon">
@@ -415,18 +426,19 @@
         <div class="modal-checkbox">
           <input
           id="user-policy"
-          class="modal-checkbox-input"
+          class="modal-checkbox-input visyaly-hidden"
           type="checkbox"
           name="user-policy"
           required />
-          <label class="modal-checkbox-label" for="user-policy">I accept the terms and conditions of the </label>
-          <a href="#"target="_blank" class="modal-checkbox-privasy-link">Privacy Policy</a>
-              
-          <span>
+          <label class="modal-checkbox-label" for="user-policy">
+            <span class="modal-checkbox-custom">
             <svg class="modal-checkbox-icon" width="16" height="16">
               <use href="./images/icons/sprite.svg#icon-click"></use>
             </svg>
-          </span>
+          </span>I accept the terms and conditions of the&nbsp;</label>
+          <a href="#"target="_blank" class="modal-checkbox-privasy-link">Privacy Policy</a>
+              
+          
         </div>
 
         <button type="submit" class="modal-form-button">Send</button>
