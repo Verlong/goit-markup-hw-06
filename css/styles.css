@@ -605,7 +605,8 @@ button {
 
 .subscribe-form-button{
   display: flex;
-  align-self: center;
+  align-items: center;
+  justify-content: space-between;
   min-width: 169px;
   padding: 8px 24px;
   font-weight: 500;
