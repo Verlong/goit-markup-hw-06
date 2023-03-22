@@ -28,6 +28,7 @@
 <body>
   <header class="main-header">
     <div class="container page-header-container">
+      <!-- ===============================NAVIGATION=========================================== -->
       <nav class="site-nav">
         <a class="link logo-top" href="./index.html">
           <span style="color: #4d5ae5;">Web</span>
@@ -45,6 +46,8 @@
           </li>
         </ul>
       </nav>
+      <!-- ===============================NAVIGATION=========================================== -->
+      <!-- ===============================CONTACTS=========================================== -->
       <address>
         <ul class="list contact-list">
           <li class="contact-item">
@@ -59,9 +62,11 @@
           </li>
         </ul>
       </address>
+      <!-- ===============================/CONTACTS=========================================== -->
     </div>
   </header>
   <main>
+    <!-- ===============================HERO=========================================== -->
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">
@@ -70,7 +75,8 @@
         <button class="order-btn modal-btn" type="button" data-modal-open>Order Service</button>
       </div>
     </section>
-
+    <!-- ===============================/HERO=========================================== -->
+    <!-- ===============================ABOUT=========================================== -->
     <section class="about section">
       <div class="container">
         <h2 class="visyaly-hidden">Hidden header</h2>
@@ -126,7 +132,8 @@
         </ul>
       </div>
     </section>
-
+    <!-- ===============================/ABOUT=========================================== -->
+    <!-- ===============================OUR WORK=========================================== -->
     <section class="our-work section">
       <div class="container">
         <h2 class="section-title">What are we doing</h2>
@@ -143,6 +150,8 @@
         </ul>
       </div>
     </section>
+    <!-- ===============================/OUR WORK=========================================== -->
+    <!-- ===============================TEAM=========================================== -->
     <section class="team-sec section">
       <div class="container">
         <h2 class="section-title">Our Team</h2>
@@ -250,6 +259,8 @@
         </ul>
       </div>
     </section>
+    <!-- ===============================/TEAM=========================================== -->
+    <!-- ===============================CUSTOMERS=========================================== -->
     <section class=" section customers-sec">
       <div class="container">
         <h2 class="section-title">Customers</h2>
@@ -299,8 +310,9 @@
         </ul>
       </div>
     </section>
+    <!-- ===============================/CUSTOMERS=========================================== -->
   </main>
-
+  <!-- ==========================FOOTER=========================================== -->
   <footer class="footer">
     <div class="container">
       <div class="footer-container">
@@ -317,42 +329,40 @@
         <p class="footer-about">Social media</p>
         <ul class="social-list list social-list-footer">
           <li class="social-item"><a href="#" class="social-list-link dark-theme">
-              <svg width="16" height="16">
+              <svg width="24" height="24">
                 <use href="./images/icons/sprite.svg#icon-instagram"></use>
               </svg> </a> </li>
           <li class="social-item"><a href="#" class="social-list-link dark-theme">
-              <svg width="16" height="16">
+              <svg width="24" height="24">
                 <use href="./images/icons/sprite.svg#icon-twitter"></use>
               </svg> </a> </li>
           <li class="social-item"><a href="#" class="social-list-link dark-theme">
-              <svg width="16" height="16">
+              <svg width="24" height="24">
                 <use href="./images/icons/sprite.svg#icon-facebook"></use>
               </svg> </a> </li>
           <li class="social-item"><a href="#" class="social-list-link dark-theme">
-              <svg width="16" height="16">
+              <svg width="24" height="24">
                 <use href="./images/icons/sprite.svg#icon-linkedin"></use>
               </svg> </a> </li>
         </ul>
       </div>
-
-      <form class="subscribe-form  ">
-        <div class="subscribe-group-input-form">
-          <label class="subscribe-form-label" for="email-footer"><span
-              class="subscribe-form-input-description">Subscribe</span></label>
-          <input id="email-footer" class="subscribe-form-input" type="email" name="email-user" placeholder="E-mail"
-            required>
-        </div>
-
-
-        <button type="submit" class="subscribe-form-button">Subscribe
-          <svg class="subscribe-form-icon" width="24" height="24">
-            <use href="/images/icons/sprite.svg#icon-subscribe"></use>
-          </svg>
-        </button>
-      </form>
+      <div class="subscribe-container">
+        <form class="subscribe-form  ">
+          <div class="subscribe-group-input-form">
+            <p class="subscribe-form-label">Subscribe</p>
+            <input class="subscribe-form-input" type="email" name="email-user" placeholder="E-mail" required>
+          </div>
+          <button type="submit" class="subscribe-form-button">Subscribe
+            <svg class="subscribe-form-icon" width="24" height="24">
+              <use href="./images/icons/sprite.svg#icon-subscribe"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
 
     </div>
   </footer>
+  <!-- ==========================/FOOTER=========================================== -->
   <!-- ===============================MODAL WINDOW========================= -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -421,7 +431,7 @@
 
     </div>
   </div>
-  <!-- ===============================MODAL WINDOW========================= -->
+  <!-- ===============================/MODAL WINDOW========================= -->
   <script src="./js/modal.js"></script>
 </body>
 
