@@ -587,6 +587,7 @@ button {
 .subscribe-form-input {
   width: 264px;
   height: 40px;
+  color: var(--white-color);
   background-color: var(--navy-blue-color);
   border: 1px solid var(--white-color);
   border-radius: 4px;
