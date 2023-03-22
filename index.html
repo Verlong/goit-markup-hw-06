@@ -334,31 +334,26 @@
               </svg> </a> </li>
         </ul>
       </div>
-      
-        <form class="subscribe-form  ">
-          <div class="subscribe-group-input-form">
-            <label class="subscribe-form-label" for="email"><span class="subscribe-form-input-description">Subscribe</span></label>
-            <input
-            id="email"
-            class="subscribe-form-input"
-            type="email"
-            name="email-user"
-            placeholder="E-mail" 
-             required>
-          </div>
-          
-         
-          <button type="submit" class="subscribe-form-button">Subscribe
-            <svg class="subscribe-form-icon"  width="24" height="24">
-              <use href="/images/icons/sprite.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
-      
+
+      <form class="subscribe-form  ">
+        <div class="subscribe-group-input-form">
+          <label class="subscribe-form-label" for="email"><span
+              class="subscribe-form-input-description">Subscribe</span></label>
+          <input id="email" class="subscribe-form-input" type="email" name="email-user" placeholder="E-mail" required>
+        </div>
+
+
+        <button type="submit" class="subscribe-form-button">Subscribe
+          <svg class="subscribe-form-icon" width="24" height="24">
+            <use href="/images/icons/sprite.svg#icon-subscribe"></use>
+          </svg>
+        </button>
+      </form>
+
     </div>
   </footer>
   <!-- ===============================MODAL WINDOW========================= -->
-  <div class="backdrop is-hidden" data-modal >
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-close-btn" data-modal-close>
         <svg width="8" height="8" class="modal-close-btn-icon">
@@ -371,74 +366,49 @@
 
         <label class="modal-form-label" for="name-user"><span class="modal-form-input-description">Name</span></label>
         <div class="modal-form-wrapper">
-          <input 
-          id="name-user"
-          class="modal-form-input" 
-          type="text"
-           name="name-user" 
-           placeholder=" " 
-           required 
-           pattern="^[a-zA-Z]+"
-          minlength="2">
-           
-            <svg class="modal-form-icon"  >
-              <use href="/images/icons/sprite.svg#icon-person"></use>
-            </svg>
-           
+          <input id="name-user" class="modal-form-input" type="text" name="name-user" placeholder=" " required
+            pattern="^[a-zA-Z]+" minlength="2">
+
+          <svg class="modal-form-icon">
+            <use href="./images/icons/sprite.svg#icon-person"></use>
+          </svg>
+
         </div>
 
         <label class="modal-form-label" for="tel"><span class="modal-form-input-description">Phone</span></label>
         <div class="modal-form-wrapper">
-          <input 
-          id="tel"
-          class="modal-form-input" 
-          type="tel" 
-          name="phone_user" 
-          required 
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
-          <svg class="modal-form-icon"  >
-            <use href="/images/icons/sprite.svg#icon-phone"></use>
+          <input id="tel" class="modal-form-input" type="tel" name="phone_user" required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+          <svg class="modal-form-icon">
+            <use href="./images/icons/sprite.svg#icon-phone"></use>
           </svg>
         </div>
 
         <label class="modal-form-label" for="email"><span class="modal-form-input-description">Email</span></label>
         <div class="modal-form-wrapper">
-          <input 
-          id="email"
-          class="modal-form-input" 
-          type="email" 
-          name="email-user" 
-           required>
-          <svg class="modal-form-icon"  >
-            <use href="/images/icons/sprite.svg#icon-email"></use>
+          <input id="email" class="modal-form-input" type="email" name="email-user" required>
+          <svg class="modal-form-icon">
+            <use href="./images/icons/sprite.svg#icon-email"></use>
           </svg>
         </div>
 
         <label class="modal-form-label" id="feedback" for="comments"><span
             class="modal-form-input-description">Comment</span></label>
-        <textarea 
-        id="feedback"
-        class="modal-textarea" 
-        name="message-user" 
-         placeholder="Text input"></textarea>
+        <textarea id="feedback" class="modal-textarea" name="message-user" placeholder="Text input"></textarea>
 
 
         <div class="modal-checkbox">
-          <input
-          id="user-policy"
-          class="modal-checkbox-input visyaly-hidden"
-          type="checkbox"
-          name="user-policy"
-          required />
+          <input id="user-policy" class="modal-checkbox-input visyaly-hidden" type="checkbox" name="user-policy"
+            required />
           <label class="modal-checkbox-label" for="user-policy">
             <span class="modal-checkbox-custom">
-            <svg class="modal-checkbox-icon" width="16" height="16">
-              <use href="./images/icons/sprite.svg#icon-click"></use>
-            </svg>
-          </span>I accept the terms and conditions of the&nbsp;</label>
-          <a href="#"target="_blank" class="modal-checkbox-privasy-link">Privacy Policy</a>
-              
-          
+              <svg class="modal-checkbox-icon" width="16" height="16">
+                <use href="./images/icons/sprite.svg#icon-click"></use>
+              </svg>
+            </span>I accept the terms and conditions of the&nbsp;</label>
+          <a href="#" target="_blank" class="modal-checkbox-privasy-link">Privacy Policy</a>
+
+
         </div>
 
         <button type="submit" class="modal-form-button">Send</button>
