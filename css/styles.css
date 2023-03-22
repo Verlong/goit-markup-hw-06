@@ -559,10 +559,11 @@ button {
 /* ============subscribe form======== */
 .subscribe-form {
   display: flex;
-  margin-top: 100px;
+  align-items: center;
+  /* margin-top: 100px; */
 }
 
-.modal-form-label {
+.subscribe-form-label {
   display: block;
   margin-bottom: 16px;
 
@@ -573,7 +574,9 @@ button {
   color: var(--white-color);
 }
 
-
+.subscribe-group-input-form {
+  table-layout: 24px;
+}
 
 .subscribe-form-input {
   width: 264px;
@@ -594,6 +597,10 @@ button {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+    }
+
+    .subscribe-form-icon {
+       
     }
 
 .subscribe-form-button{
